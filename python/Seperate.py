@@ -1,0 +1,5 @@
+sep = input("Enter the string = ")
+hi = sep.split('-')
+hi.sort()
+se = '-'.join(hi)
+print(se)
